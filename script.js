@@ -5,7 +5,7 @@ function hitung(operator) {
   let hasil;
 
   if (isNaN(angka1) || isNaN(angka2)) {
-    hasil = "Masukkan kedua angka!";
+    hasil = "Error! Terjadi kesalahan dalam memasukkan angka!";
     hasilDiv.classList.add("error");
   } else {
     switch (operator) {
